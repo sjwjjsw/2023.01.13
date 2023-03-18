@@ -407,3 +407,9 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 ^https?:\/\/kepler\.jd\.com\/console\/admin\/getConfigNew url reject-200
 #掌上英雄联盟屏蔽开屏广告
 ^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend url reject-200
+#MeiTuan
+^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage url reject
+^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ url reject
+^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) url reject
+^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg url reject
+^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp url reject
