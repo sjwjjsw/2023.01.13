@@ -228,7 +228,11 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 ^https?:\/\/p\d.meituan.net\/movie\/.*?\?may_covertWebp url reject-img
 ^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|linglong|mmc|wmbanner)\/ url reject
 # >美团外卖
-^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg url reject-200
+^ ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage url reject
+^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ url reject
+^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) url reject
+^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg url reject
+^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp url reject
 # > 分期乐
 ^https?:\/\/fm\.fenqile\.com\/routev2\/other\/getfloatAd\.json url reject-img
 ^https?:\/\/fm\.fenqile\.com\/routev2\/other\/startImg\.json url reject-img
