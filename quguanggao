@@ -228,7 +228,6 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 ^https?:\/\/p\d.meituan.net\/movie\/.*?\?may_covertWebp url reject-img
 ^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|linglong|mmc|wmbanner)\/ url reject
 # >美团外卖
-^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage url reject
 ^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ url reject
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) url reject
 ^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg url reject
