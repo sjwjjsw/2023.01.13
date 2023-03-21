@@ -412,3 +412,6 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) url reject
 ^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg url reject
 ^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp url reject
+#didichuxing
+https?://res\.xiaojukeji\.com\/resapi\/activity\/mget url reject
+https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) url reject
