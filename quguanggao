@@ -237,9 +237,6 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 ^https?:\/\/sdk\.qzbonline\.com\/prov8\/zfsw\/sdk\/ioszh_zfsw_conf_jh\.html url reject-200
 ^https?:\/\/scxs\.pysmei\.com\/prov8\/zfsw\/version\.html url reject-200
 ^https?:\/\/piq\.in-neo\.cn url reject-dict
-#网速管家屏蔽开屏广告
-#番茄畅听屏蔽开屏广告 
-#巡游手游加速器屏蔽开屏广告
 #掌上爱众屏蔽开屏广告
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads\/ url reject-200
 #天翼云盘屏蔽开屏广告
@@ -318,13 +315,6 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 ^https?:\/\/103\.91\.210\.141:2515\/xgapp\.php\/v2\/top_notice? url reject-200
 #携程屏蔽广告
 ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/scjson\/tripAds url reject-200
-#网易云音乐屏蔽开屏广告(卸载重装)
-^https?:\/\/clientlog3\.music\.163\.com\/api\/clientlog\/encrypt\/upload* url reject-200
-^https?:\/\/.*\/eapi\/ad\/* url reject-200
-^https?:\/\/iadmusicmat\.music\.126\.net url reject-200
-^http:\/\/interface3\.music\.163\.com\/eapi\/lbs\/gpsStatus\/* url reject-200
-^https?:\/\/img2\.360buyimg\.com url reject-200
-^https?:\/\/im-x\.jd\.com url reject-200
 #京东金融屏蔽开屏广告
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture url reject-200
 #平安好车主屏蔽开屏广告
